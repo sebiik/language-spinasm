@@ -1,0 +1,43 @@
+'scopeName': 'source.asm.spin'
+'fileTypes': [
+  'asm'
+  'inc'
+  's'
+  'spn'
+]
+'name': 'Spin FV-1 Assembly'
+'patterns': [
+  {
+    'match': '[;].*$'
+    'name': 'comment.line'
+  }
+  {
+    'match': '(?i)\\b(nop|sin0|sin1|rmp0|rmp1|reg0|reg1|reg2|reg3|reg4|reg5|reg6|reg7|reg8|reg9|reg10|reg11|reg12|reg13|reg14|reg15|reg16|reg17|reg18|reg19|reg20|reg21|reg22|reg23|reg24|reg25|reg26|reg27|reg28|reg29|reg30|reg31|run|zrc|zro|gez|neg|adcl|adcr|dacl|dacr|pot0|pot1|pot2|sin|cos|reg|compc|compa|rptr2|na|addr_ptr|(sin|rmp)[01]_(rate|range))\\b'
+    'name': 'support.type.asm'
+  }
+  {
+    'match': '(?i)\\b(absa|and|cho|clr|equ|exp|jam|ldax|log|maxx|mem|mulx|nop|not|or|rda|rdax|rdfx|rmpa|skp|sof|wldr|wlds|wra|wrap|wrax|wrhx|wrlx|xor|\\+)\\b'
+    'name': 'keyword.mnemonic'
+  }
+  {
+    'match': '(?i)\\b(:)\\b'
+    'name': 'entity.name.label'
+  }
+  {
+    'match': '[\\$\\-\\%](0[bx])?[0-9a-fA-F]+\\b'
+    'name': 'constant.numeric.literal'
+  }
+  {
+    'match': '\\b\\-?[.0-9_]+\\b'
+    'name': 'constant.numeric.dec'
+  }
+  {
+    'match': '\\b(\\$|0x[0-9a-fA-F]+)\\b'
+    'name': 'constant.numeric.hex'
+  }
+  {
+    # labels
+    'match': '^(\\w+:)'
+    'name': 'string.parameter'
+  }
+]
