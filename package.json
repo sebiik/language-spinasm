@@ -1,28 +1,4 @@
 {
-  "_from": "https://www.atom.io/api/packages/language-spinasm/versions/0.9.0/tarball",
-  "_id": "language-spinasm@0.9.0",
-  "_inBundle": false,
-  "_integrity": "sha512-Yh1cmKU4NhY9hvLKGIhsClTDoRakBOs9afANwyCzulZc6r7IQVxZeX3kFZCK0F0hcYu+IDRLpk+dt4TVxNPqkA==",
-  "_location": "/language-spinasm",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "remote",
-    "raw": "https://www.atom.io/api/packages/language-spinasm/versions/0.9.0/tarball",
-    "rawSpec": "https://www.atom.io/api/packages/language-spinasm/versions/0.9.0/tarball",
-    "saveSpec": "https://www.atom.io/api/packages/language-spinasm/versions/0.9.0/tarball",
-    "fetchSpec": "https://www.atom.io/api/packages/language-spinasm/versions/0.9.0/tarball"
-  },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_resolved": "https://www.atom.io/api/packages/language-spinasm/versions/0.9.0/tarball",
-  "_shasum": "e3b0b4c7422c0c4f534f4d83b3ff09d71a79958c",
-  "_spec": "https://www.atom.io/api/packages/language-spinasm/versions/0.9.0/tarball",
-  "_where": "/tmp/apm-install-dir-202213-22499-ti3g8u.69id",
-  "bugs": {
-    "url": "https://github.com/sebiik/language-spinasm/issues"
-  },
   "bundleDependencies": false,
   "dependencies": {},
   "deprecated": false,
