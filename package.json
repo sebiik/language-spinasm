@@ -1,29 +1,32 @@
 {
-  "bundleDependencies": false,
-  "dependencies": {},
-  "deprecated": false,
-  "description": "Adds syntax highlighting to Spin FV-1 ASM files in Atom.",
-  "engines": {
-    "atom": ">0.50.0"
-  },
-  "homepage": "https://github.com/sebiik/language-spinasm#readme",
-  "keywords": [
-    "asm",
-    "assembler",
-    "x86",
-    "language",
-    "grammar",
-    "spin",
-    "fv-1",
-    "dsp",
-    "diy",
-    "effect"
-  ],
-  "license": "GPLv3",
   "name": "language-spinasm",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sebiik/language-spinasm.git"
+  "main": "./lib/language-spinasm",
+  "version": "0.1.0",
+  "description": "Adds syntax highlighting to Spin FV-1 ASM files in Atom.",
+  "keywords": [
+      "asm",
+      "assembler",
+      "assembly",
+      "language",
+      "grammar",
+      "syntax",
+      "spin",
+      "fv-1",
+      "fv1",
+      "spinasm",
+      "dsp",
+      "diy",
+      "effect",
+      "reverb"
+  ],
+  "activationCommands": {
+    "atom-workspace": "language-spinasm:toggle"
   },
-  "version": "0.9.0"
+  "repository": "https://github.com/sebiik/language-spinasm",
+  "license": "GPLv3",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
 }
